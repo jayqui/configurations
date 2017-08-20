@@ -1,13 +1,26 @@
+####### COVERHOUND CONFIG #######
+# allow brew installed programs like git to be executed over system installs
+export PATH="/usr/local/bin:$PATH"
+
+# initialize rbenv
+eval "$(rbenv init -)"
+
+# identify my CoverHound admin/advisor login for development
+export CH_USER="jay"
+##################################
+
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Jay/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="agnoster"
-# ZSH_THEME="avit"
 ZSH_THEME="zhann"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -52,14 +65,13 @@ ZSH_THEME="zhann"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx termialapp)
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/Users/Jay/.rbenv/bin:/Users/Jay/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -86,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
 plugins=(osx)
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
@@ -93,6 +106,10 @@ alias e="subl"
 alias gs="gst"
 alias be="bundle exec"
 alias rcomposer="https://raw.github.com/RailsApps/rails-composer/master/composer.rb"
+alias gssl="git stash list"
+alias gssv="git stash save"
+alias gssa="git stash apply"
+alias gssp="git stash pop"
 
 rcomp() { rails new "$1" -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb }
 mkdircd(){ mkdir "$1" && cd "$1" ; }
@@ -101,3 +118,5 @@ toucho(){ touch "$1" && open "$1"; }
 
 export NVM_DIR="/Users/Jay/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.yarn/bin:$PATH"
