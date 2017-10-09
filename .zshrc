@@ -1,3 +1,5 @@
+DEFAULT_USER=`whoami`
+
 ####### COVERHOUND CONFIG #######
 # allow brew installed programs like git to be executed over system installs
 export PATH="/usr/local/bin:$PATH"
@@ -20,8 +22,8 @@ export ZSH=/Users/Jay/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="agnoster"
-ZSH_THEME="zhann"
+ZSH_THEME="agnoster"
+# ZSH_THEME="zhann"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -110,6 +112,7 @@ alias gssl="git stash list"
 alias gssv="git stash save"
 alias gssa="git stash apply"
 alias gssp="git stash pop"
+alias gfx="git add && git commit -m 'fixup' && git rebase -i head~2"
 
 rcomp() { rails new "$1" -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb }
 mkdircd(){ mkdir "$1" && cd "$1" ; }
