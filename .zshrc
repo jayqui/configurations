@@ -112,7 +112,7 @@ alias gssl="git stash list"
 alias gssv="git stash save"
 alias gssa="git stash apply"
 alias gssp="git stash pop"
-alias gfx="git add && git commit -m 'fixup' && git rebase -i head~2"
+alias gfx="git add . && git commit -m 'fixup' && git rebase -i head~2"
 
 rcomp() { rails new "$1" -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb }
 mkdircd(){ mkdir "$1" && cd "$1" ; }
@@ -123,3 +123,5 @@ export NVM_DIR="/Users/Jay/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+bindkey \^u backward-kill-line
