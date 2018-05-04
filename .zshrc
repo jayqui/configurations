@@ -125,3 +125,4 @@ export NVM_DIR="/Users/Jay/.nvm"
 export PATH="$HOME/.yarn/bin:$PATH"
 
 bindkey \^u backward-kill-line
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
