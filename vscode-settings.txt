@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.colorTheme": "Monokai Alt",
+    "workbench.startupEditor": "newUntitledFile",
+}
