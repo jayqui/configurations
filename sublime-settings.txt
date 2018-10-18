@@ -17,7 +17,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Deep Blue See (SL).tmTheme",
+	"color_scheme": "Packages/Deep Blue See/Deep Blue See.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 19,
 	"ignored_packages":
