@@ -1,0 +1,9 @@
+When breaking in a fresh download of iTerm:
+
+- (Update .zshrc if applicable)
+- iTerm colors | https://iterm2colorschemes.com | IC_ORANGE_PPL
+- iTerm font | https://github.com/powerline/fonts | Meslo LG M for Powerline
+- iTerm keys
+    - Option and arrow to hop | settings > profile > keys | https://apple.stackexchange.com/a/293988/338658
+    - Set change tab keys | settings > profile > keys
+- Set Sublime as git editor | `git config --global core.editor "subl -n -w”` | https://help.github.com/en/articles/associating-text-editors-with-git
