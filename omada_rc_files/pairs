@@ -1,0 +1,122 @@
+pairs:
+  ab: Adam Berkovec; adam.berkovec
+  ac: Angelo Cordon; angelo.cordon
+  ag: Alexander Garbowitz; alexander.garbowitz
+  ah: Alex Hoff; alexjhoff
+  al: Amy Lin; amy.lin
+  an: Anthony Nassar; anthony.nassar
+  as: Anna Sobolewska; anna.sobolewska
+  atg: Anika Gersbeck; anika.gersbeck
+  bh: Brent Haas; brent.haas
+  bm: Burak Malkoc; burak.malkoc
+  bj: Brian Jue; brian.jue
+  cb: Christopher Brooks; christopher.brooks
+  cc: Chris Constantine; chris
+  cch: Chester Chu; chester.chu
+  cmp: Chris Praktish; christopher.praktish
+  cp: Chris Pan; christopher.pan
+  cr: Christina Reynolds; christina.reynolds
+  dah: Dach Hau; dach.hau
+  db: Douglas Blumeyer; douglas.blumeyer
+  dh: David Harris; david.harris
+  di: Danny Isserow; dannyiss
+  dl: Don Lang; donald.lang
+  dp: Dae Park; dae.park
+  dv: David Voiss; david.voiss
+  ea: Evan Albright; evan.albright
+  eb: Evan Burchard; evan.burchard
+  ee: Ethan Ensler; ethan.ensler
+  el: Ellard Li; ellard.li
+  fv: Franck Verrot; franck
+  gh: Gabriel Halley; gabriel.halley
+  gm: Greg McGuirk; greg.mcguirk
+  iw: Ian Winsemius; ian.winsemius
+  jd: Jimmy Do; jimmy.do
+  jde: Jagrut Desai; jagrut.desai
+  jdu: Juliana Duperron; juliana.duperron
+  jg: Joe Gracyk; joe.gracyk
+  jj: Joel Johnson; joel.johnson
+  jk: Jin-Kyung Kim; jinkyung.kim
+  jq: Jay Quigley; jay.quigley
+  js: Jake Smith; jacob.smith
+  jw: Jonathan Wrobel; jonathan.wrobel
+  ka: Kyle Aungst; kyle.aungst
+  kc: Kenny Chandrasekera; kenny.chandrasekera
+  kh: Ken Huang; ken.huang
+  ks: Kunal Shah; kunal.shah
+  la: Luke Amistead; luke.armistead
+  lk: Laura Kirby; laura.kirby
+  mb: Miguel Barba-Hernandez; miguel.barba
+  md: Marc David; marc.david
+  mf: Monica Finn; monica.finn
+  mh: Matthew Hassfurder; matthew
+  mg: Myles Guanzon; myles.guanzon
+  mhg: Melissa Glickman; melissa.glickman
+  ms: Matt Stjernholm; matt.stjernholm
+  na: Nick Anderson; nick.anderson
+  nm: Nathan Maton; nathan.maton
+  nw: Nathan Wilmes; nathan.wilmes
+  nz: Nick Ziegler; nick.ziegler
+  oc: Orianna Casanas; orianna.casanas
+  pv: Peter Vliet; peter.vliet
+  ps: Preethi Siva; preethi.siva
+  rr: Ricardo Rojas; ricardo.rojas
+  rf: Riley Freedman; riley.freedman
+  rq: Ryan Quan; ryan.quan
+  rr: Ricardo Rojas; ricardo.rojas
+  rw: Robbie Wain; robbie.wain
+  sc: Sylvain Cau; sylvain.cau
+  sr: Sarah Reynolds; sarah
+  ss: Scott Stebleton; scott.stebleton
+  ty: Tina Yeung; tina.yeung
+  vb: Vivek Bhansali; vivek.bhansali
+  vg: Vazgen Grigoryan; vgrig
+  we: Wes Elfman; wes.elfman
+  wss: Scott Schappell; scott.schappell
+  ys: Yusuf Soomro; yusuf.soomro
+  zh: Zoe Henry; zoe.henry
+  zmw: Zoe Madden-Wood; zoe.maddenwood
+email:
+  prefix: pair
+  domain: omadahealth.com
+slack_handles:
+  ab: adam.berkovec
+  ac: angelo.cordon
+  al: amy.lin
+  ap: austinfromboston
+  as: anna.sobolewska
+  bj: brian.jue
+  bm: burak
+  cc: chris
+  cmp: christopher.praktish
+  cp: chris.pan
+  cl: chris.lemcke
+  dh: david.harris
+  dl: donald.lang
+  el: ellard.li
+  fv: franck
+  gh: gaby
+  gm: greg.mcguirk
+  jd: jimmy.do
+  jg: joe
+  jj: joel.johnson
+  jk: jinkyung.kim
+  js: jacob.smith
+  ka: kyle.aungst
+  lc: lillie
+  lk: laura.kirby
+  mb: miguel.barba
+  mh: matthew
+  ms: matt.stjernholm
+  na: nick.anderson
+  nm: nathon.maton
+  nw: nathan.wilmes
+  rr: ricardo.rojas
+  rq: ryan.quan
+  rw: robbie.wain
+  sc: sylvain
+  sr: sarah
+  ty: Tina Yeung
+  ys: yusuf.soomro
+  zh: zoe.henry
+  zmw: zoe.maddenwood

@@ -1,0 +1,32 @@
+:set nocompatible
+execute pathogen#infect()
+syntax on
+:filetype off
+:set hlsearch
+:set number
+:set relativenumber
+:set autoindent
+:set showcmd
+:set incsearch
+:set expandtab
+:set ts=2
+:set sw=2
+:au FocusLost * silent! wa
+
+"fuzzy file finder
+set path+=**
+set wildmenu
+
+"tag jumping
+command! MakeTags !ctags -R
+
+"file browsing
+autocmd vimenter *.rb,*.js NERDTreeVCS
+syntax on
+
+"Quote all lines in a file
+nnoremap ,qls :s%/^\(.*\)$/"\1"/g<CR>
+
+"Strip trailing whitespace before save on listed filetypes
+autocmd BufWritePre *.rb,*.js,*.yml,*.css %s/\s\+$//e
+
