@@ -115,7 +115,7 @@ export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
 # Replace with
 prompt_context() {
   # Custom (Random emoji)
-  emojis=(":zap:️" ":brain:" ":fire:" ":face_with_monocle:" ":crown:" ":sunglasses:" ":nerd_face:" ":monkey_face:" ":eagle:" ":bulb:" ":flag-et:")
+  emojis=("⚡️" "🧠" "🔥" "🧐" "👑" "😎" "🤓" "🐵" "🦅" "💡" "🇪🇹")
   RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))
   prompt_segment black default "${emojis[$RAND_EMOJI_N]} "
 }
