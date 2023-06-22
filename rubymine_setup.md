@@ -2,6 +2,7 @@
 * Editor Colors: Settings > Editor > Color Scheme > Scheme: Monokai
 * Font: Settings > Editor > Font > Font: Meslo LG M DZ for Powerline
 * Ruby Version: Settings > Languages & Frameworks > Ruby SDK and Gems > select a non-system Ruby version
+* EOF newline: Settings > Editor > General > Ensure every saved file ends with a line break
 * Tabs: Settings > Editor > Editor Tabs > Show Tabs In: Multiple Rows
 * Copy from Repository Root: Settings > Keymap
    * search for 'copy'
