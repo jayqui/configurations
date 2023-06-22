@@ -2,7 +2,28 @@
 * Editor Colors: Settings > Editor > Color Scheme > Scheme: Monokai
 * Font: Settings > Editor > Font > Font: Meslo LG M DZ for Powerline
 * Ruby Version: Settings > Languages & Frameworks > Ruby SDK and Gems > select a non-system Ruby version
+* Copy from Repository Root: Settings > Keymap
+   * search for 'copy'
+   * un-assign Cmd+Shift+C from Absolute Path
+   * assign Cmd+Shift+C to Path from Repository Root
+* Live Templates: Settings > Editor > Live Templates > add the following.
 * GitLink: See below
+
+### My live templates
+
+#### `ps`
+
+```ruby
+puts "===> $VAR$: #{($VAR$).inspect}"
+```
+
+#### `puts`
+
+```ruby
+puts "\n" * 3
+puts "===== $THING$: #{($THING$).inspect}"
+puts "\n" * 3
+```
 
 ### GitLink
 
