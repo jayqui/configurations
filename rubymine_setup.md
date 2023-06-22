@@ -2,6 +2,7 @@
 * Editor Colors: Settings > Editor > Color Scheme > Scheme: Monokai
 * Font: Settings > Editor > Font > Font: Meslo LG M DZ for Powerline
 * Ruby Version: Settings > Languages & Frameworks > Ruby SDK and Gems > select a non-system Ruby version
+* Tabs: Settings > Editor > Editor Tabs > Show Tabs In: Multiple Rows
 * Copy from Repository Root: Settings > Keymap
    * search for 'copy'
    * un-assign Cmd+Shift+C from Absolute Path
