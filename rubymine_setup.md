@@ -1,6 +1,7 @@
 * Theme: Settings > Appearance & Behavior > Appearance > Theme: Darcula
 * Editor Colors: Settings > Editor > Color Scheme > Scheme: Monokai
 * Font: Settings > Editor > Font > Font: Meslo LG M DZ for Powerline
+* Ruby Version: Settings > Languages & Frameworks > Ruby SDK and Gems > select a non-system Ruby version
 * GitLink: See below
 
 ### GitLink
