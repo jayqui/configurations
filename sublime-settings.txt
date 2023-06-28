@@ -19,15 +19,11 @@
 	],
 	"color_scheme": "Packages/Deep Blue See/Deep Blue See.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 19,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"font_size": 16,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "ayu-mirage.sublime-theme", // install ayu + A File Icon
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
 }
