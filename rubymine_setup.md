@@ -27,6 +27,12 @@ puts "===== $THING$: #{($THING$).inspect}"
 puts "\n" * 3
 ```
 
+#### `con`
+
+```js
+console.log("===> $VAR$: ", $VAR$);
+```
+
 ### GitLink
 
 1. Install the GitLink plugin.
