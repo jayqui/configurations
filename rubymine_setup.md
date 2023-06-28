@@ -8,6 +8,9 @@
    * search for 'copy'
    * un-assign Cmd+Shift+C from Absolute Path
    * assign Cmd+Shift+C to Path from Repository Root
+* ESLint: Settings > Keymap
+   * find and remove all Ctrl + Option + E shortcuts
+   * Add Ctrl + Option + E for 'Fix ESLint Problems'
 * Live Templates: Settings > Editor > Live Templates > add the following.
 * GitLink: See below
 
