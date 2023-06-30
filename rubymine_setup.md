@@ -4,6 +4,7 @@
 * Ruby Version: Settings > Languages & Frameworks > Ruby SDK and Gems > select a non-system Ruby version
 * EOF newline: Settings > Editor > General > Ensure every saved file ends with a line break
 * Tabs: Settings > Editor > Editor Tabs > Show Tabs In: Multiple Rows
+* Soft Wrap: Settings > General > Soft-wrap these files: [make sure it has at least ` *.rb; *.js`]
 * Copy from Repository Root: Settings > Keymap
    * search for 'copy'
    * un-assign Cmd+Shift+C from Absolute Path
