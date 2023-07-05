@@ -1,4 +1,14 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Jay custom:
+
+"Share system clipboard
+set clipboard=unnamed
+
+"show line numbers
+set number
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer:
 "       Amir Salihefendic - @amix3k
 "
@@ -51,14 +61,6 @@ nmap <leader>w :w!<cr>
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
-
-
-
-
-"Share system clipboard
-set clipboard=unnamed
-
-
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -265,7 +267,7 @@ catch
 endtry
 
 " Return to last edit position when opening files (You want this!)
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 
 """"""""""""""""""""""""""""""
