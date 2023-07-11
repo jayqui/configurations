@@ -7,6 +7,19 @@ set clipboard=unnamed
 "show line numbers
 set number
 
+"cursor style settings
+let &t_SI = "\e[5 q" "blinking bar in insert mode (SI = INSERT mode)
+let &t_EI = "\e[1 q" "blinking block in normal mode (EI = NORMAL mode (ELSE))
+" Other options:
+" Ps = 0  -> blinking block.
+" Ps = 1  -> blinking block (default).
+" Ps = 2  -> steady block.
+" Ps = 3  -> blinking underline.
+" Ps = 4  -> steady underline.
+" Ps = 5  -> blinking bar (xterm).
+" Ps = 6  -> steady bar (xterm).
+
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer:
