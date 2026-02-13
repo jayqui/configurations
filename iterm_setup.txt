@@ -1,6 +1,7 @@
 When breaking in a fresh download of iTerm:
 
 - (Update .zshrc if applicable)
+- oh my zsh: https://ohmyz.sh/#install
 - iTerm colors | https://iterm2colorschemes.com | IC_ORANGE_PPL
 - iTerm font | https://github.com/powerline/fonts | Meslo LG M for Powerline
 - iTerm keys
