@@ -72,6 +72,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git asdf)
 
+export DFS_AUTO_UPDATE=1 # enable auto-update for dotfiles repo
 source "$HOME/workspace/dotfiles/dotfiles.sh"
 source $ZSH/oh-my-zsh.sh
 source "$HOME/workspace/dotfiles/dotfiles.d/git.sh"
@@ -108,8 +109,11 @@ alias gssv="git stash save"
 alias gssa="git stash apply"
 alias gssp="git stash pop"
 
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+
 export PATH="$PATH:$(brew --prefix)/imagemagick@6/bin"
 export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
+# export DISABLE_FIXTURE_BUILDER=1
 
 # Remove agnoster's default display of the system and user name
 # Replace with
@@ -120,15 +124,17 @@ prompt_context() {
   prompt_segment black default "${emojis[$RAND_EMOJI_N]} "
 }
 
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-source /opt/homebrew/bin/activate.sh
+# export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
 eval "$(direnv hook zsh)"
 
-
-
-
-# temp!
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+# Add asdf to PATH
+. $HOME/.asdf/asdf.sh
+# Add asdf completions
+. $HOME/.asdf/completions/asdf.bash
+export PATH="$HOME/.asdf/shims:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+export PATH="/usr/local/opt/postgresql/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
