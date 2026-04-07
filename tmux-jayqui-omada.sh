@@ -21,7 +21,7 @@ function setup_for_msk() {
   tmux select-window -t "msk"
   tmux send-keys "mskw && switch staging" C-m
   tmux select-window -t "fe"
-  tmux send-keys "mskw && switch staging && yarn run dev" C-m
+  tmux send-keys "mskw && switch staging && yarn dev" C-m
   tmux select-window -t "fl sh"
   tmux send-keys "mskw && switch staging && flask shell" C-m
   tmux select-window -t "msk stag db"
@@ -31,32 +31,44 @@ function setup_for_msk() {
 }
 
 function setup_for_kairos() {
-  tmux new-window -n "kk"
+  tmux new-window -n "k1"
   tmux new-window -n "rails s"
   tmux split-window -h
   tmux new-window -n "rails c"
   tmux new-window -n "ks rails"
   tmux new-window -n "kp rails"
-  tmux new-window -n "oo rs"
-  tmux new-window -n "sidekiq"
+  tmux new-window -n "kd rails"
+  # tmux new-window -n "oo rs"
+  # tmux new-window -n "sidekiq"
+  tmux new-window -n "k1II"
+  tmux new-window -n "k2"
+  tmux new-window -n "k2II"
 
-  tmux select-window -t "kk"
+  tmux select-window -t "k1"
   tmux send-keys "kk" C-m
   tmux select-window -t "rails s"
   tmux select-pane -t 2
   tmux send-keys "kk && LIVERELOAD=true npm run dev" C-m
   tmux select-pane -t 1
-  tmux send-keys "kk && rails s" C-m
+  tmux send-keys "kk && bundle && migrate && rails s" C-m
   tmux select-window -t "rails c"
-  tmux send-keys "kk && rails c" C-m
+  tmux send-keys "kk && bundle && rails c" C-m
   tmux select-window -t "ks rails"
-  tmux send-keys "kk && ks rails" C-m
+  tmux send-keys "kk && ks rails c" C-m
   tmux select-window -t "kp rails"
-  tmux send-keys "kk && kp rails" C-m
-  tmux select-window -t "oo rs"
-  tmux send-keys "oo && gm && gv && bundle && migrate && gco . && rails s" C-m
-  tmux select-window -t "sidekiq"
-  tmux send-keys "kk && sidekiq" C-m
+  tmux send-keys "kk && kp rails c" C-m
+  tmux select-window -t "kd rails"
+  tmux send-keys "kk && kd rails c" C-m
+  # tmux select-window -t "oo rs"
+  # tmux send-keys "oo && gm && gv && bundle && migrate && gco . && rails s" C-m
+  # tmux select-window -t "sidekiq"
+  # tmux send-keys "kk && bundle exec sidekiq -C config/sidekiq_combined_for_local_dev.yml" C-m
+  tmux select-window -t "k1II"
+  tmux send-keys "kk" C-m
+  tmux select-window -t "k2"
+  tmux send-keys "cd ../kairos2" C-m
+  tmux select-window -t "k2II"
+  tmux send-keys "cd ../kairos2" C-m
 
   tmux select-window -t 1
 }
