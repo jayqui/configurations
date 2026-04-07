@@ -28,7 +28,6 @@
 	"word_wrap": true,
 	"ignored_packages":
 	[
-		"Package Control",
 		"Vintage",
 	],
 	"index_files": true,
